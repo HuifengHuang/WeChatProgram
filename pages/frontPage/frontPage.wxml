@@ -1,0 +1,38 @@
+<!--pages/frontPage.wxml-->
+<view class="container">
+  <view class="head_view">
+    <image class="head_image" src="/pages/images/计算机学院.jpg" mode="aspectFill"></image>
+  </view>
+  <view class="body_view">
+    <view class="bot_view">
+      <text style="font-size: larger;">升学方向</text>
+      <view class="icon_container">
+        <view class="icon" bind:tap="baoyan_tap">
+          <image src="/pages/images/保研.png" mode="aspectFill"></image>
+          <text>保研</text>
+        </view>
+        <view class="icon">
+          <image src="/pages/images/考研.png" mode="aspectFill"></image>
+          <text>考研</text>
+        </view>
+        <view class="icon">
+          <image src="/pages/images/留学.png" mode="aspectFill"></image>
+          <text>留学</text>
+        </view>
+      </view>
+    </view>
+    <view class="bot_view">
+      <text style="font-size: larger;">工作方向</text>
+      <view class="icon_container">
+        <view class="icon">
+          <image src="/pages/images/考公.png" mode="aspectFill"></image>
+          <text>考公</text>
+        </view>
+        <view class="icon">
+          <image src="/pages/images/企业.png" mode="aspectFill"></image>
+          <text>企业</text>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,17 @@
+/* pages/planningPage/planningPage.wxss */
+.Object_container{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 50rpx;
+}
+.text_container{
+  width: 90%;
+}
+.text_container textarea{
+  width: 100%;
+  height: auto;
+  white-space: pre-line;
+}
