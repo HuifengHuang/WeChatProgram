@@ -66,7 +66,27 @@ Page({
 
   baoyan_tap: function(){
     wx.reLaunch({
-      url: '/pages/planningPage/planningPage',
+      url: '/pages/planningPage/planningPage?direction=保研',
+    })
+  },
+  kaoyan_tap: function(){
+    wx.reLaunch({
+      url: '/pages/planningPage/planningPage?direction=考研',
+    })
+  },
+  liuxue_tap: function(){
+    wx.reLaunch({
+      url: '/pages/planningPage/planningPage?direction=留学',
+    })
+  },
+  kaogong_tap: function(){
+    wx.reLaunch({
+      url: '/pages/planningPage/planningPage?direction=考公',
+    })
+  },  
+  qiye_tap: function(){
+    wx.reLaunch({
+      url: '/pages/planningPage/planningPage?direction=企业',
     })
   }
 })

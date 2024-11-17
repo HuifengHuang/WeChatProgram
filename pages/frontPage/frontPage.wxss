@@ -40,6 +40,9 @@
   justify-content: center;
   align-items: center;
   margin: 0 20rpx;
+  border: 1rpx solid gray;
+  border-radius:10rpx;
+  box-shadow: 10rpx 10rpx 5rpx #888888;
 }
 .icon image{
   width: 150rpx;

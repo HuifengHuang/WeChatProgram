@@ -1,6 +1,6 @@
 <!--pages/planningPage/planningPage.wxml-->
 <scroll-view scroll-y="true">
-  <view wx:for="{{Object1}}" class="Object_container">
+  <view wx:for="{{Info}}" class="Object_container">
     <view style="font-size: larger;">{{item.period}}</view>
     <view class="text_container">
       <textarea>{{item.detail}}</textarea>

@@ -11,11 +11,11 @@
           <image src="/pages/images/保研.png" mode="aspectFill"></image>
           <text>保研</text>
         </view>
-        <view class="icon">
+        <view class="icon" bind:tap="kaoyan_tap">
           <image src="/pages/images/考研.png" mode="aspectFill"></image>
           <text>考研</text>
         </view>
-        <view class="icon">
+        <view class="icon" bind:tap="liuxue_tap">
           <image src="/pages/images/留学.png" mode="aspectFill"></image>
           <text>留学</text>
         </view>
@@ -24,11 +24,11 @@
     <view class="bot_view">
       <text style="font-size: larger;">工作方向</text>
       <view class="icon_container">
-        <view class="icon">
+        <view class="icon" bind:tap="kaogong_tap">
           <image src="/pages/images/考公.png" mode="aspectFill"></image>
           <text>考公</text>
         </view>
-        <view class="icon">
+        <view class="icon" bind:tap="qiye_tap">
           <image src="/pages/images/企业.png" mode="aspectFill"></image>
           <text>企业</text>
         </view>
